@@ -5,7 +5,7 @@ obj="root"
 cd /root/Git/UnixSystemProgramming/
 
 if [ -d "$obj" ]; then
-	git rm -r $obj
+	git rm -rf $obj
 	git commit -m "remove old /root $(date +%F)"
 	rm -rf $obj
 fi
