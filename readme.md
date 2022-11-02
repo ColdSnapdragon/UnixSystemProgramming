@@ -1,3 +1,0 @@
-# Unix System Programming 
-
-hello!
