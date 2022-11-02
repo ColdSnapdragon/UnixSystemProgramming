@@ -93,20 +93,24 @@ $
 	)
 
 # 文件标记:
-'0  15  7  ~/gitbk.sh
-'1  19  25  ~/bkroot.sh
-'2  13  32  ~/gitbk.sh
-'3  3  5  ~/Git/readme.md
-'4  43  2  ~/Linux系统编程/pthread/pthread_creat.c
-'5  40  10  ~/Linux系统编程/pthread/pthread_creat.c
-'6  32  0  ~/Linux系统编程/pthread/pthread_creat.c
-'7  35  49  ~/Linux系统编程/pthread/pthread_creat.c
-'8  20  20  ~/Linux系统编程/pthread/pthread_creat.c
-'9  45  0  ~/Linux系统编程/pthread/pthread_creat.c
+'0  11  1  ~/gitbk.sh
+'1  1  0  ~/bkg
+'2  5  0  ~/gitbk.sh
+'3  13  12  ~/gitbk.sh
+'4  17  7  ~/gitbk.sh
+'5  19  25  ~/bkroot.sh
+'6  15  32  ~/gitbk.sh
+'7  3  5  ~/Git/readme.md
+'8  43  2  ~/Linux系统编程/pthread/pthread_creat.c
+'9  40  10  ~/Linux系统编程/pthread/pthread_creat.c
 
 # 跳转列表 (从新到旧):
--'  15  7  ~/gitbk.sh
+-'  11  1  ~/gitbk.sh
+-'  5  0  ~/gitbk.sh
+-'  1  0  ~/bkg
 -'  13  0  ~/gitbk.sh
+-'  17  0  ~/gitbk.sh
+-'  15  0  ~/gitbk.sh
 -'  19  25  ~/bkroot.sh
 -'  3  0  ~/bkroot.sh
 -'  1  0  ~/gitbk.sh
@@ -199,28 +203,34 @@ $
 -'  27  1  ~/Linux系统编程/ipc/wc.c
 -'  31  2  ~/Linux系统编程/ipc/wc.c
 -'  11  0  ~/Linux系统编程/ipc/wc.c
--'  32  2  ~/Linux系统编程/ipc/wc.c
--'  1  0  ~/Linux系统编程/ipc/wc.c
--'  10  0  ~/Linux系统编程/process/wait.c
--'  11  1  ~/Linux系统编程/process/wait.c
 
 # 文件内的标记历史记录 (从新到旧):
 
 > ~/gitbk.sh
-	"	15	7
-	^	15	8
-	.	15	7
+	"	11	1
+	^	11	2
+	.	11	1
 	+	3	11
 	+	3	38
 	+	5	34
 	+	4	0
-	+	7	0
+	+	8	0
 	+	3	5
-	+	8	40
-	+	12	12
-	+	13	34
-	+	8	41
-	+	15	7
+	+	9	40
+	+	14	12
+	+	15	34
+	+	9	41
+	+	17	7
+	+	8	14
+	+	15	13
+	+	7	21
+	+	8	0
+	+	9	0
+	+	10	12
+	+	11	1
+
+> ~/bkg
+	"	1	0
 
 > ~/bkroot.sh
 	"	19	25
@@ -520,11 +530,3 @@ $
 	^	3	31
 	.	3	30
 	+	3	30
-
-> ~/Linux系统编程/signal/alarm.c
-	"	21	1
-	^	21	26
-	.	21	25
-	+	19	10
-	+	20	7
-	+	21	25
