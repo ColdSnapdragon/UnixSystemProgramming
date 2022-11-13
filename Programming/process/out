@@ -1,0 +1,86 @@
+USER        PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root          1  0.0  1.1 127992  6644 ?        Ss   19:53   0:02 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root          2  0.0  0.0      0     0 ?        S    19:53   0:00 [kthreadd]
+root          4  0.0  0.0      0     0 ?        S<   19:53   0:00 [kworker/0:0H]
+root          5  0.0  0.0      0     0 ?        S    19:53   0:00 [kworker/u256:0]
+root          6  0.0  0.0      0     0 ?        S    19:53   0:00 [ksoftirqd/0]
+root          7  0.0  0.0      0     0 ?        S    19:53   0:00 [migration/0]
+root          8  0.0  0.0      0     0 ?        S    19:53   0:00 [rcu_bh]
+root          9  0.0  0.0      0     0 ?        R    19:53   0:01 [rcu_sched]
+root         10  0.0  0.0      0     0 ?        S<   19:53   0:00 [lru-add-drain]
+root         11  0.0  0.0      0     0 ?        S    19:53   0:00 [watchdog/0]
+root         13  0.0  0.0      0     0 ?        S    19:53   0:00 [kdevtmpfs]
+root         14  0.0  0.0      0     0 ?        S<   19:53   0:00 [netns]
+root         15  0.0  0.0      0     0 ?        S    19:53   0:00 [khungtaskd]
+root         16  0.0  0.0      0     0 ?        S<   19:53   0:00 [writeback]
+root         17  0.0  0.0      0     0 ?        S<   19:53   0:00 [kintegrityd]
+root         18  0.0  0.0      0     0 ?        S<   19:53   0:00 [bioset]
+root         19  0.0  0.0      0     0 ?        S<   19:53   0:00 [bioset]
+root         20  0.0  0.0      0     0 ?        S<   19:53   0:00 [bioset]
+root         21  0.0  0.0      0     0 ?        S<   19:53   0:00 [kblockd]
+root         22  0.0  0.0      0     0 ?        S<   19:53   0:00 [md]
+root         23  0.0  0.0      0     0 ?        S<   19:53   0:00 [edac-poller]
+root         24  0.0  0.0      0     0 ?        S<   19:53   0:00 [watchdogd]
+root         25  0.1  0.0      0     0 ?        S    19:53   0:03 [kworker/0:1]
+root         30  0.0  0.0      0     0 ?        S    19:53   0:00 [kswapd0]
+root         31  0.0  0.0      0     0 ?        SN   19:53   0:00 [ksmd]
+root         32  0.0  0.0      0     0 ?        RN   19:53   0:00 [khugepaged]
+root         33  0.0  0.0      0     0 ?        S<   19:53   0:00 [crypto]
+root         41  0.0  0.0      0     0 ?        S<   19:53   0:00 [kthrotld]
+root         43  0.0  0.0      0     0 ?        S<   19:53   0:00 [kmpath_rdacd]
+root         44  0.0  0.0      0     0 ?        S<   19:53   0:00 [kaluad]
+root         45  0.0  0.0      0     0 ?        S<   19:53   0:00 [kpsmoused]
+root         46  0.0  0.0      0     0 ?        S    19:53   0:00 [kworker/0:2]
+root         47  0.0  0.0      0     0 ?        S<   19:53   0:00 [ipv6_addrconf]
+root         60  0.0  0.0      0     0 ?        S<   19:53   0:00 [deferwq]
+root         95  0.0  0.0      0     0 ?        S    19:53   0:00 [kauditd]
+root        101  0.0  0.0      0     0 ?        S    19:53   0:00 [kworker/0:3]
+root        236  0.0  0.0      0     0 ?        S<   19:53   0:00 [mpt_poll_0]
+root        237  0.0  0.0      0     0 ?        S<   19:53   0:00 [mpt/0]
+root        238  0.0  0.0      0     0 ?        S<   19:53   0:00 [nfit]
+root        239  0.0  0.0      0     0 ?        S<   19:53   0:00 [ata_sff]
+root        247  0.0  0.0      0     0 ?        S    19:53   0:00 [scsi_eh_0]
+root        248  0.0  0.0      0     0 ?        S<   19:53   0:00 [scsi_tmf_0]
+root        249  0.0  0.0      0     0 ?        S    19:53   0:00 [kworker/u256:2]
+root        250  0.0  0.0      0     0 ?        S    19:53   0:00 [scsi_eh_1]
+root        251  0.0  0.0      0     0 ?        S<   19:53   0:00 [scsi_tmf_1]
+root        252  0.0  0.0      0     0 ?        S    19:53   0:00 [scsi_eh_2]
+root        253  0.0  0.0      0     0 ?        S<   19:53   0:00 [scsi_tmf_2]
+root        257  0.0  0.0      0     0 ?        S    19:53   0:00 [irq/16-vmwgfx]
+root        258  0.0  0.0      0     0 ?        S<   19:53   0:00 [ttm_swap]
+root        282  0.0  0.0      0     0 ?        S    19:53   0:00 [jbd2/sda2-8]
+root        283  0.0  0.0      0     0 ?        S<   19:53   0:00 [ext4-rsv-conver]
+root        362  0.0  0.4  34960  2976 ?        Ss   19:53   0:00 /usr/lib/systemd/systemd-journald
+root        398  0.0  0.8  48764  5236 ?        Ss   19:53   0:00 /usr/lib/systemd/systemd-udevd
+root        415  0.0  0.0      0     0 ?        S<   19:53   0:00 [kworker/0:1H]
+root        483  0.0  0.0      0     0 ?        S<   19:53   0:00 [kworker/u257:0]
+root        486  0.0  0.0      0     0 ?        S<   19:53   0:00 [hci0]
+root        487  0.0  0.0      0     0 ?        S<   19:53   0:00 [hci0]
+root        489  0.0  0.0      0     0 ?        S<   19:53   0:00 [kworker/u257:2]
+root        500  0.0  0.0      0     0 ?        S    19:53   0:00 [jbd2/sdb5-8]
+root        501  0.0  0.0      0     0 ?        S<   19:53   0:00 [ext4-rsv-conver]
+root        503  0.0  0.0      0     0 ?        S    19:53   0:00 [jbd2/sda5-8]
+root        505  0.0  0.0      0     0 ?        S    19:53   0:00 [jbd2/sda1-8]
+root        506  0.0  0.0      0     0 ?        S<   19:53   0:00 [ext4-rsv-conver]
+root        508  0.0  0.0      0     0 ?        S<   19:53   0:00 [ext4-rsv-conver]
+root        532  0.0  0.1  55532   864 ?        S<sl 19:53   0:00 /sbin/auditd
+dbus        557  0.0  0.4  66452  2576 ?        Ssl  19:53   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+polkitd     559  0.0  2.5 613004 14984 ?        Ssl  19:53   0:00 /usr/lib/polkit-1/polkitd --no-debug
+root        561  0.0  0.8 168304  5164 ?        Ss   19:53   0:00 /usr/bin/VGAuthService -s
+root        562  0.1  0.8 273160  4848 ?        Ssl  19:53   0:05 /usr/bin/vmtoolsd
+root        563  0.0  0.2  26384  1752 ?        Ss   19:53   0:00 /usr/lib/systemd/systemd-logind
+root        573  0.0  0.2 126380  1668 ?        Ss   19:53   0:00 /usr/sbin/crond -n
+root        581  0.0  0.1 110204   820 tty1     Ss+  19:53   0:00 /sbin/agetty --noclear tty1 linux
+root        597  0.0  4.9 359024 29744 ?        Ssl  19:53   0:01 /usr/bin/python2 -Es /usr/sbin/firewalld --nofork --nopid
+root        627  0.0  1.5 700176  9168 ?        Ssl  19:53   0:00 /usr/sbin/NetworkManager --no-daemon
+root        752  0.0  0.9 102904  5488 ?        S    19:53   0:00 /sbin/dhclient -d -q -sf /usr/libexec/nm-dhcp-helper -pf /var/run/dhclient-ens33.pid -lf /var/lib/NetworkManager/dhclient-a8e84125-4e1c-4f51-93ae-1a13f5576685-ens33.lease -cf /var/lib/NetworkManager/dhclient-ens33.conf ens33
+root        933  0.0  2.9 574280 17448 ?        Ssl  19:53   0:00 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root        934  0.0  0.6 212304  3940 ?        Ssl  19:53   0:00 /usr/sbin/rsyslogd -n
+root        937  0.0  0.7 112900  4312 ?        Ss   19:53   0:00 /usr/sbin/sshd -D
+root        957  0.0  0.9 158904  5600 ?        Ss   19:53   0:00 sshd: root@pts/0
+root       1105  0.0  0.3  89708  2132 ?        Ss   19:53   0:00 /usr/libexec/postfix/master -w
+postfix    1112  0.0  0.6  89812  4068 ?        S    19:53   0:00 pickup -l -t unix -u
+postfix    1113  0.0  0.6  89880  4092 ?        S    19:53   0:00 qmgr -l -t unix -u
+root       1135  0.0  0.4 115896  2508 pts/0    Ss   19:53   0:00 -bash
+root       1355  0.0  0.0   4212   356 pts/0    S+   20:48   0:00 ./ps2
+root       1356  0.0  0.3 155448  1868 pts/0    R+   20:48   0:00 ps axu
